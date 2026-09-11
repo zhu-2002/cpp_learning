@@ -1,6 +1,6 @@
 # cpp_learning
 
-📝**Overview** ：记录cpp的学习过程。
+记录学习cpp的过程。
 
 ## 运行环境
 
