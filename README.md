@@ -1,10 +1,6 @@
 # cpp_learning
 
-🧑🏻‍💻**Author**： Zenos
-
 📝**Overview** ：记录cpp的学习过程。
-
-------
 
 ## 运行环境
 
