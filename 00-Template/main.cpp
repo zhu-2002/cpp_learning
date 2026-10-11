@@ -11,10 +11,10 @@ using namespace std ;
 
 int main(int argc, char *argv[])
 {
-    cout<<"----- begin -----"<<endl;
+    cout<<"==================== begin ===================="<<endl;
 
 
 
-    cout<<"----- end -----"<<endl;
+    cout<<"===================== end ====================="<<endl;
     return 0 ;
 }
