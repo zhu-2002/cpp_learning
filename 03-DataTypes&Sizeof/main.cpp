@@ -1,6 +1,8 @@
-/*
+/*===================================================
+ * Cpp在线参考手册:https://cppreference.cn/
  *==================================================
- * 03.数据类型 和 sizeof()
+ * 03.数据类型 和 sizeof()    cout<<"==================== begin ===================="<<endl;
+
  * =================================================
  */
 #include <iostream>
@@ -8,7 +10,7 @@ using namespace std ;
 
 int main(int argc, char *argv[])
 {
-    cout<<"----- begin -----"<<endl;
+    cout<<"==================== begin ===================="<<endl;
 
 
     cout<<"Char Size: " << sizeof(char) << endl ;
@@ -37,6 +39,6 @@ int main(int argc, char *argv[])
     // double
     std::cout << sizeof(val2) << endl ;
 
-    cout<<"----- end -----"<<endl;
+    cout<<"===================== end ====================="<<endl;
     return 0 ;
 }

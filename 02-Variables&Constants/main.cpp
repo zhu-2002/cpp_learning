@@ -1,4 +1,5 @@
-/*
+/*===================================================
+ * Cpp在线参考手册:https://cppreference.cn/
  *==================================================
  * 02.变量与常量
  * =================================================
@@ -21,7 +22,7 @@ const double PI{3.14159f} ;
 
 int main(int argc, char *argv[])
 {
-    cout<<"----- begin -----"<<endl;
+    cout<<"==================== begin ===================="<<endl;
 
     cout << "Random Num : " << RandNum << endl;
 
@@ -43,6 +44,6 @@ int main(int argc, char *argv[])
     cout << "dpi string : " << dpi_string << endl;
 
 
-    cout << "----- end -----" << endl;
+    cout<<"===================== end ====================="<<endl;
     return 0 ;
 }

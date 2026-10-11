@@ -1,4 +1,5 @@
-/*
+/*===================================================
+ * Cpp在线参考手册:https://cppreference.cn/
  *==================================================
  * 05.选择分支语句
  * =================================================
@@ -8,7 +9,7 @@ using namespace std ;
 
 int main(int argc, char *argv[])
 {
-    cout<<"----- begin -----"<<endl;
+    cout<<"==================== begin ===================="<<endl;
 
     /*
      *if-else
@@ -59,6 +60,6 @@ int main(int argc, char *argv[])
     string temperature = y > 24 ? "Hot":"Cool" ;
     cout << temperature <<  endl ;
 
-    cout<<"----- end -----"<<endl ;
+    cout<<"===================== end ====================="<<endl;
     return 0 ;
 }

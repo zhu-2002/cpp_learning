@@ -12,11 +12,11 @@ using namespace std ;
 
 int main(int argc, char *argv[])
 {
-    cout<<"----- begin -----"<<endl;
+    cout<<"==================== begin ===================="<<endl;
 
     cout<<"abs(-19) = " << abs(-19) << endl ;
 
 
-    cout<<"----- end -----"<<endl;
+    cout<<"===================== end ====================="<<endl;
     return 0 ;
 }

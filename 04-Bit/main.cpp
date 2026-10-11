@@ -1,4 +1,5 @@
-/*
+/*===================================================
+ * Cpp在线参考手册:https://cppreference.cn/
  *==================================================
  * 04.位运算
  * =================================================
@@ -8,7 +9,7 @@ using namespace std ;
 
 int main(int argc, char *argv[])
 {
-    cout<<"----- begin -----"<<endl;
+    cout<<"==================== begin ===================="<<endl;
 
     int a{5} ;
     int b{3} ;
@@ -33,6 +34,6 @@ int main(int argc, char *argv[])
     int right{a>>b};
     cout << "right :" << right << endl ;
 
-    cout<<"----- end -----"<<endl;
+    cout<<"===================== end ====================="<<endl;
     return 0 ;
 }
