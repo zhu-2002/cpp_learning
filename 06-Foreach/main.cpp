@@ -30,7 +30,6 @@ int main(int argc, char *argv[])
         cout << x << endl ;
     }
 
-
     cout<<"----- end -----"<<endl;
     return 0 ;
 }

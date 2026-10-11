@@ -5,4 +5,4 @@ set(CMAKE_CXX_STANDARD 26)
 
 add_executable(cpp_learning 01-Print/main.cpp)
 add_executable(cpp_learning 02-Variables&Constants/main.cpp
-        main.cpp)
+        00-Template/main.cpp)
