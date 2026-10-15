@@ -40,7 +40,6 @@ int main(int argc, char *argv[])
     change(msg,decode) ;
     cout << "decode: " << msg << endl;
 
-
     cout<<"===================== end ====================="<<endl;
     return 0 ;
 }
