@@ -79,3 +79,8 @@ add_executable(lesson14
         "14-HeadFile/yourfile.cpp"
         "14-HeadFile/yourfile.h"
 )
+
+# 15 - 对象与类
+add_executable(lesson15
+        "15-Class&Object/main.cpp"
+)
