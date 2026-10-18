@@ -7,61 +7,9 @@
  */
 
 #include <iostream>
+#include "circle.h"
+
 using namespace std ;
-
-const double PI = 3.14;
-
-class Circle
-{
-public:
-    static int number;
-
-    Circle()
-    {
-        number++;
-        radius = 1.0;
-        cout << "Construction default number : " << number <<endl;
-        cout << "Construction radius : " << radius <<endl;
-
-    }
-
-    Circle(double r)
-    {
-        number++;
-        set_radius(r) ;
-        cout << "Construction default number : " << number <<endl;
-        cout << "Construction radius : " << radius <<endl;
-    }
-
-    double get_radius()
-    {
-        return radius;
-    }
-
-    void set_radius(double radius)
-    {
-        this->radius = radius;
-    }
-
-    ~Circle()
-    {
-        number--;
-        cout << "Destruction default number : " << number <<endl;
-        cout << "Destruction radius : " << radius <<endl;
-    }
-
-    double area()
-    {
-        return PI * get_radius() * get_radius() ;
-    }
-
-private:
-    double radius{0.0};
-};
-
-
-// 初始化类的静态成员变量
-int Circle::number = 0;
 
 
 int main(int argc, char* argv[])

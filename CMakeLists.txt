@@ -83,4 +83,7 @@ add_executable(lesson14
 # 15 - 对象与类
 add_executable(lesson15
         "15-Class&Object/main.cpp"
+        15-Class&Object/constants.h
+        15-Class&Object/circle.h
+        15-Class&Object/circle.cpp
 )
