@@ -2,7 +2,7 @@
  * Cpp在线参考手册:https://cppreference.cn/
  *===================================================
  * 15.类和对象学习.
- * 在栈上和在堆上创建对象的区别
+ * 在栈上和在堆上创建对象的区别,this实例指针
  *==================================================
  */
 
@@ -28,9 +28,19 @@ public:
     Circle(double r)
     {
         number++;
-        radius = r ;
+        set_radius(r) ;
         cout << "Construction default number : " << number <<endl;
         cout << "Construction radius : " << radius <<endl;
+    }
+
+    double get_radius()
+    {
+        return radius;
+    }
+
+    void set_radius(double radius)
+    {
+        this->radius = radius;
     }
 
     ~Circle()
@@ -42,7 +52,7 @@ public:
 
     double area()
     {
-        return PI * radius * radius ;
+        return PI * get_radius() * get_radius() ;
     }
 
 private:
